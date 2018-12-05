@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<header>
+<script type="text/javascript" src="code.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+        
+</header>
+<html>
+<body>
+
+
+<form action="#">
+    
+  <table id="customers">
+      <tr>
+          <th colspan="4">Hello to BMI comparision </th>
+      </tr>
+      <tr>
+    <td colspan="2"><span><input value="Mark" class="name" id="name1"></span></td>
+    <td colspan="2"><span><input value="John" class="name" id="name2"></span></td>
+  </tr>
+      <tr>
+    <td>Weight</td>
+    <td><input  id="weigh1" placeholder="Kg" class="textbox" required type="number"></td>
+    <td>Weight</td>
+    <td><input  id="weigh2" placeholder="Kg" class="textbox" required type="number"></td>
+  </tr>
+      <tr>
+    <td>Height</td>
+   <td><input  id="heigh1"  placeholder="Cm" class="textbox" required type="number"></td>
+    <td>Height</td>
+    <td><input id="heigh2" placeholder="Cm" class="textbox" required type="number"></td>
+  </tr>
+      <tr>
+        <td colspan="2">Please submit to see result!</td>
+        <td colspan="2">
+            
+        <button onclick="calculateBmi()" class="button">Try it</button>
+        <button type="reset" class="button">Clear</button>
+        
+        </td>
+    </tr>
+  
+   </table>
+</form>
+    
+<p id="demo1" class="p"></p> 
+<p id="demo2" class="p"></p>
+<p id="markbmi" class="p"></p>
+<p id="johnbmi" class="p"></p>
+
+    
+    
+    
+
+
+</body>
+</html>
